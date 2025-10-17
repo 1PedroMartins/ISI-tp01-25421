@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="smtpHost" type="xstring" value="smtp.gmail.com"/>
+        <entry key="smtpPort" type="xint" value="587"/>
+        <entry key="useAuthentication" type="xboolean" value="true"/>
+        <entry key="useCredentials" type="xboolean" value="false"/>
+        <entry key="credentialsId" type="xstring" value=""/>
+        <entry key="smtpUser" type="xstring" value="pedrofmartins2004@gmail.com"/>
+        <entry key="smtpPasswordWeaklyEncrypted" type="xpassword" value="02EwAAAGMq_QxveL1vZ0EBj001EqExune-0vhjx1sD_6oFlsGx3Ga9"/>
+        <entry key="connectionSecurity" type="xstring" value="STARTTLS"/>
+        <entry key="emailFormat" type="xstring" value="Html"/>
+        <entry key="emailPriority" type="xstring" value="Normal"/>
+        <entry key="from" type="xstring" value="pedrofmartins2004@gmail.com"/>
+        <entry key="to" type="xstring" value="pedrofmartins2004@gmail.com"/>
+        <entry key="cc" type="xstring" value=""/>
+        <entry key="bcc" type="xstring" value=""/>
+        <entry key="replyTo" type="xstring" value=""/>
+        <entry key="subject" type="xstring" value="Relatório"/>
+        <entry key="text" type="xstring" value="&lt;!DOCTYPE html&gt;%%00010&lt;html lang=&quot;pt&quot;&gt;%%00010&lt;head&gt;%%00010&lt;meta charset=&quot;UTF-8&quot;&gt;%%00010&lt;style&gt;%%00010  body {%%00010    font-family: Arial, sans-serif;%%00010    color: #333;%%00010    line-height: 1.5;%%00010  }%%00010  h2 {%%00010    color: #0073aa;%%00010    margin-bottom: 10px;%%00010  }%%00010  .highlight {%%00010    font-weight: bold;%%00010    color: #0073aa;%%00010  }%%00010  .footer {%%00010    margin-top: 15px;%%00010    font-size: 0.9em;%%00010    color: #555;%%00010  }%%00010&lt;/style&gt;%%00010&lt;/head&gt;%%00010&lt;body&gt;%%00010  &lt;h2&gt;Relatório Automático&lt;/h2&gt;%%00010  &lt;p&gt;O processo ETL foi concluído com sucesso.&lt;/p&gt;%%00010  &lt;p&gt;Em anexo encontra-se o relatório com os ficheiros de dados e os gráficos correspondentes.&lt;/p&gt;%%00010%%00010  &lt;p&gt;&lt;strong&gt;Número total de empresas processadas:&lt;/strong&gt; $${IUnique count(Empresa)}$$&lt;/p&gt;%%00010  %%00010  &lt;div class=&quot;footer&quot;&gt;%%00010    &lt;p&gt;Email automático gerado pelo sistema KNIME.&lt;/p&gt;%%00010  &lt;/div&gt;%%00010&lt;/body&gt;%%00010&lt;/html&gt;%%00010"/>
+        <config key="attachedURLs">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="file:/C:%5CUsers%5CAdmin%5COneDrive%20-%20Instituto%20Polit%C3%A9cnico%20do%20C%C3%A1vado%20e%20do%20Ave%5CDesktop%5Ctp01-25421%5Cdata%5Coutput%5Cscaleups.csv"/>
+            <entry key="1" type="xstring" value="file:/C:%5CUsers%5CAdmin%5COneDrive%20-%20Instituto%20Polit%C3%A9cnico%20do%20C%C3%A1vado%20e%20do%20Ave%5CDesktop%5Ctp01-25421%5Cdata%5Coutput%5Cstartups.csv"/>
+            <entry key="2" type="xstring" value="file:/C:%5CUsers%5CAdmin%5COneDrive%20-%20Instituto%20Polit%C3%A9cnico%20do%20C%C3%A1vado%20e%20do%20Ave%5CDesktop%5Ctp01-25421%5Cdata%5Coutput%5Cstartups_scaleups.csv"/>
+        </config>
+        <entry key="smtpConnectionTimeout" type="xint" value="2000"/>
+        <entry key="smtpReadTimeout" type="xint" value="30000"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.util.sendmail.SendMailNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Send Email"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.7.0.v202508280756"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.7.0.v202508280756"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Send Email"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="5317c242-2119-4a9b-82e5-7b043c0f138c"/>
+    </config>
+</config>
