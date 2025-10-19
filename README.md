@@ -20,6 +20,8 @@ O sistema realiza as seguintes etapas:
 
 O vídeo demonstrativo do funcionamento do projeto está disponível em:  
 [https://youtu.be/WYjshbrMqZM](https://youtu.be/WYjshbrMqZM)
+![qrcode](url_qrcodecreator.com_15_56_04.png)
+
 
 ---
 
