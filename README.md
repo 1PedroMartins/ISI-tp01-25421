@@ -10,8 +10,8 @@ Este projeto tem como objetivo demonstrar a implementação de um **processo ETL
 O sistema realiza as seguintes etapas:
 - **Extração** de dados públicos em múltiplos formatos (JSON, XML, CSV);
 - **Transformação** e **limpeza** dos dados (validação, normalização e enriquecimento);
-- **Carregamento** dos resultados numa base de dados **PostgreSQL**;
-- **Geração automática** de relatórios e gráficos;
+- **Distribuição** dos resultados numa base de dados **PostgreSQL**;
+- **Elaboração automática** de relatórios e gráficos;
 - **Envio de resumo por email**.
 
 ---
@@ -20,6 +20,7 @@ O sistema realiza as seguintes etapas:
 
 O vídeo demonstrativo do funcionamento do projeto está disponível em:  
 [https://youtu.be/WYjshbrMqZM](https://youtu.be/WYjshbrMqZM)
+
 ---
 
 ## Como Abrir o Projeto no KNIME
@@ -36,12 +37,12 @@ O vídeo demonstrativo do funcionamento do projeto está disponível em:
 Para criar a base de dados local utilizada no projeto, deve executar o seguinte comando no terminal:
 
 ```bash
-psql -U postgres -d nova_bd -f knime_trabalho.sql
+psql -U postgres -d nome_bd -f knime_trabalho.sql
 ```
 
 Este comando cria a estrutura e as tabelas necessárias para o armazenamento dos dados transformados.
 
->  **Nota:** Certifique-se de que o PostgreSQL está instalado e a base de dados `nova_bd` existe (ou crie-a previamente com `createdb nova_bd`).
+>  **Nota:** Certifique-se de que o PostgreSQL está instalado e a base de dados `nome_bd` ou outra, existe (ou crie-a previamente com `createdb nome_bd`).
 
 ---
 
